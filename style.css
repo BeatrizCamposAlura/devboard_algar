@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container__header{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px 0 20px;
+}
+
+h1{
+    font-family: "Monofett", monospace;
+    font-size: 64px;
+    font-weight: 400;
+    color: #0367B2;
+}
+
+div{
+    display: flex;
+    gap: 30px;
+}
+
+.links__header{
+  font-family: "Poppins", sans-serif;
+  color:#999999;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+main{
+    margin: 0 20px 0 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartao{
+    width: 300px;
+    height: 500px;
+    background-color: red;
+}
+
+/*Beatriz Campos Lima*/
+#beatrizCampos {
+    background-image: url("/beatrizCampos/background_beatriz_campos.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente os itens do contêiner */
+    justify-content: center;
+  }
+  
+  #beatrizCampos .cartao_imagem_beatriz {
+    width: 130px;
+    border-radius: 40%;
+    border: 4px solid #DAA520;
+
+  }
+  
+  #beatrizCampos .cartao_titulo_beatriz {
+    text-align: center;
+    font-family: "Whisper", cursive;
+    font-size: 45px;
+    color: #00008B;
+    align-items: center;
+    margin: 30px;
+  }
+  
+  #beatrizCampos .cartao_texto_beatriz {
+    font-family: "Dosis", sans-serif;
+    font-size: 25px;
+    color: #00008B;
+  }
+  
+  
+  #beatrizCampos .cartao_linkedin_beatriz {
+    width: 45px;
+    margin-top: 10px;
+    transition: transform 0.4s ease;
+  
+  }
+  
+  #beatrizCampos .cartao_linkedin_beatriz:hover {
+    transform: scale(1.3);
+  }
+
+.container__footer{
+    width: auto;
+    height: 270px;
+    background-image: url("./images/image48.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto__footer{
+  font-family: "Montserrat", sans-serif;;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+
+.alura__footer, .parceria__footer, .algar___footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px 0 20px;
+}
+
+.alura__footer__links, .parceria__footer__links, .algar__links{
+  display: flex;
+}
+
+/*Responsividade Funcionando ^^*/
+@media (max-width: 365px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .container__header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__header__links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cartao{
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  .container__footer{
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+  }
+}
+
+/* MANIPULAÇÃO DE DOM */
+
+.modo-dark{
+  background-color: #000;
+}
+
+.modo-dark-links{
+  color: #FFFFFF;
+}
