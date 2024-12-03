@@ -6,9 +6,15 @@
 .container__header{
     display: flex;
     width: auto;
+    height: 200px;
     justify-content: space-between;
     align-items: center;
     margin: 0 20px 0 20px;
+}
+
+.container__header__links{
+  display: flex;
+  gap: 30px;
 }
 
 h1{
