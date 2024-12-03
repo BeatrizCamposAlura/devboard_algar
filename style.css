@@ -18,7 +18,7 @@ h1{
     color: #0367B2;
 }
 
-div{
+.icones{
     display: flex;
     gap: 30px;
 }
@@ -153,3 +153,65 @@ main{
 .modo-dark-links{
   color: #FFFFFF;
 }
+
+/* Cartão Lucas*/
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    /*padding: 0;*/
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+.gifcartao {
+    padding: 15px;
+}
+
+.cartao {
+    width: 300px;
+    height: 500px;
+  }
+
+  #lucasMendes {
+    background-image: url("img/japaogif1.webp");
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    /*gap: 90px;*/
+  }
+
+  .cartao__imagem {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+    margin-top: 15px;
+  }
+
+  .cartao__texto {
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: #FC0 1px 0 10px;
+  }
+
+  .cartao__texto__paragrafo {
+    font-size: 12px;
+  }
+
+  .cartao__links {
+    display: flex;
+    gap: 50px;
+  }
