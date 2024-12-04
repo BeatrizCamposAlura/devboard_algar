@@ -121,7 +121,7 @@ main{
 }
 
 /*Responsividade Funcionando ^^*/
-@media (max-width: 405px) {
+@media (max-width: 768px) {
   body {
     display: flex;
     flex-direction: column;
