@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "cartao",
+			"path": "../cartao"
+		},
+		{
+			"name": "Projetos",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "Projetos"
+	}
+}
